@@ -1,0 +1,41 @@
+Git and its definitions (as well as commands) 
+
+Git is a distributed version control system (VCS) primarily used to track changes in source code during software development. It enables multiple devs to work on the same project simultaneously without overwriting each other's changes. It also helps manage a project’s history and allows users to revert to earlier versions, making it essential for collaborative coding projects. 
+
+Git commands: 
+
+“git init”: Initializes a new Git repository. 
+
+“git clone”: Copies an existing repository. 
+
+git add”: Adds changes to the staging area. 
+
+“git commit”: Records changes to the repository. 
+
+“git push”: Uploads local changes to a remote repository. 
+
+“git pull”: Fetches and integrates changes from a remote repository. 
+
+“git branch”: Lists, creates, or deletes branches. 
+
+“git merge”: Combines changes from different branches 
+
+git config --global user.name "Your Name": Sets your Git username globally. 
+
+git config --global user.email "your.email@example.com": Sets your Git email globally. 
+
+git config --list: Lists all Git configurations (global and local). 
+
+ git rm (file) = removes a file from both the working 
+
+git branch: Lists all local branches. 
+
+git branch <branch-name>: Creates a new branch. 
+
+git checkout <branch-name>: Switches to a different branch. 
+
+git checkout -b <branch-name>: Creates a new branch and switches to it. 
+
+git merge <branch-name>: Merges the specified branch into the current one. 
+
+git branch -d <branch-name>: Deletes a branch. 
