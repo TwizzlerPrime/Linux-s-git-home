@@ -39,3 +39,6 @@ git checkout -b <branch-name>: Creates a new branch and switches to it.
 git merge <branch-name>: Merges the specified branch into the current one. 
 
 git branch -d <branch-name>: Deletes a branch. 
+
+How to push file changes to GitHub
+1.
