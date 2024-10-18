@@ -59,3 +59,7 @@ No spaces between the variable and its value are allowed to be made. E.g =
 NAME="Ire"
 echo "Hello. $NAME"
 3. "if-else" statements: they check conditions and execute code based on whether the condition is true or false.
+For example, it can check wheter a file  exists or not when combined with -d.
+
+
+
