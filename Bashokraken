@@ -30,4 +30,6 @@ free -m
 
 echo "Disk Usage:"
 df -h
-
+"df" stands for DiskFilesystem and "-h" makes the results human readable.
+"top" displays real time system information, "-b" stands for batch mode, and -n1 only runs the "top" command once,
+instead of continuously updating.
