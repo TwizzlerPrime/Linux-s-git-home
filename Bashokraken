@@ -1,0 +1,33 @@
+      What is a bash script?          
+Bash script is a file that contains a series of commands executed by the Bash shell, commonly used in Unix/Linux 
+systems. Bash (Bourne Again Shell) is a command-line interpreter.
+                     How to Write a bash script.
+1. Always start with a shebang (#!) to specify the shell interpreter. (e.g #!/bin/bash)
+
+2.Variables are declared without "$", but is referred to using the "$" symbol. 
+No spaces between the variable and its value are allowed to be made. E.g =
+#!/bin/bash
+NAME="Ire"
+echo "Hello. $NAME"
+3. "if-else" statements: they check conditions and execute code based on whether the condition is true or false.
+For example, it can check wheter a file  exists or not when combined with -d.
+  chmod is used in making your bash scripts executable.
+
+                                            System Monitoring
+    System monitoring is the tracking, and analysis of the performance, health, activity and security of computers.
+It collects many data aspects such as CPU usage, memory use, network traffic, disk space, and app performance.
+It also tracks malware activity, unauthorized access attempts, and any other security related issues.
+
+    We can use shell and bash scripts (on linux) to monitor system resources like CPU, memory, etc.
+#!/bin/bash
+# CPU, Memory, Disk Usage Monitoring Script
+
+echo "CPU Usage:"
+top -b -n1 | grep "Cpu(s)"
+
+echo "Memory Usage:"
+free -m
+
+echo "Disk Usage:"
+df -h
+
