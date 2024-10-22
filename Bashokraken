@@ -12,7 +12,12 @@ echo "Hello. $NAME"
 3. "if-else" statements: they check conditions and execute code based on whether the condition is true or false.
 For example, it can check wheter a file  exists or not when combined with -d.
   chmod is used in making your bash scripts executable.
-
+  4. A list of commands and what they do.
+# when put next to text makes it a comment, and it is ignored by the code.
+fi finishes an if-else statement.
+if runs code based on the condition is is given, if the "if" statement is not met, "else" runs instead.
+read checks the response given for a sentence. For example, read "What will you do?" will read the users response
+to "What will you do?".
                                             System Monitoring
     System monitoring is the tracking, and analysis of the performance, health, activity and security of computers.
 It collects many data aspects such as CPU usage, memory use, network traffic, disk space, and app performance.
