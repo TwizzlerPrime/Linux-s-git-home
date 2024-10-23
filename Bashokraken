@@ -22,10 +22,26 @@ For example, it can check wheter a file  exists or not when combined with -d.
     # when put next to text makes it a comment, and it is ignored by the code.
     fi finishes an if-else statement.
     if runs code based on the condition is is given, if the "if" statement is not met, "else" runs instead.
-    read checks the response given for a sentence, you can ask for the input by using "-p" after "read". For example, read -p "What will you do?" will read the users response to "What will you do?".
-    A "regex" or regular expression is a character sequence that makes a search pattern eg. = 
-    if [[ $number =~ ^[0-9]+$ ]]; then       (The parts in "^[0-9]+$) make sure the input can only be in numbers.)
-    
+    read checks the response given for a sentence, you can ask for the input by using "-p" after "read". For example, 
+    read -p "What will you do?" will read the users response to "What will you do?".
+   
+    Regex (^[0-9]+$):
+This part is a pattern used to match text. It’s called a "regular expression"
+    ^ means "start of input" and $ means "end of input". [0-9] means any digit, and + means "at least one or more".
+
+ Arithmetic Calculation ($(( ))):
+"$(( ))" is used to do math calculations in Bash.
+age_days=$((age_years * 365)) calculates how many days are in the given number of years. It multiplies age_years by 365.
+
+[[ ]] and !~:
+"[[ ]]" is used to test conditions in Bash. It helps make the script safer and easier to write.
+"!~" means "does not match". In this script, [[ ! $age_years =~ ^[0-9]+$ ]] checks if the input does not match the pattern (meaning it’s not a number).
+
+ ==, |&nbsp;, &nbsp;&gt;&nbsp;, &nbsp;&lt;&nbsp;, -eq, -ne, -gt, if, else, etc are known as conditionals.
+
+
+
+
 
                                             -----------------
                                             System Monitoring
