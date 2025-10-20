@@ -6,7 +6,7 @@ systems. Bash (Bourne Again Shell) is a command-line interpreter.
                      How to Write a bash script.
 1. Always start with a shebang (#!) to specify the shell interpreter. (e.g #!/bin/bash)
 
-2.Variables are declared without "$", but is referred to using the "$" symbol. 
+2.Variables are declared without "$", but are referred to using the "$" symbol. 
 No spaces between the variable and its value are allowed to be made. E.g =
 #!/bin/bash
 NAME="Ire"
